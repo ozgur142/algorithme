@@ -1,0 +1,131 @@
+# General
+.DS_Store
+Thumbs.db
+
+# C++ Specific
+# Build directories
+/build/
+/bin/
+/obj/
+/out/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.d
+*.dSYM/
+*.stackdump
+
+# Static and dynamic libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Coverage reports
+*.gcno
+*.gcda
+*.gcov
+
+# Python Specific
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log and cache files
+*.log
+*.sqlite3
+*.db
+*.pot
+*.py[cod]
+*.coverage
+.coverage.*
+
+# Pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution/packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Test coverage
+htmlcov/
+
+# Mypy and other static analysis tools
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Pytest
+.pytest_cache/
+
+# Other Python-related files
+__pycache__/
+*.pypirc
+*.manifest
+
+# IDE/Editor Specific
+# JetBrains IDEs
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Emacs
+*~
+\#*\#
+
+# Vim
+*.swp
+*.swo
+*.swn
+.session
+.netrwhist
