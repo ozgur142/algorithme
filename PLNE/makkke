@@ -1,0 +1,6 @@
+docker start -i scip
+
+read exple.lp 
+optimize . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . # lance la résolution
+
+display solution
